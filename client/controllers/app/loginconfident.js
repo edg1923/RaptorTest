@@ -1,5 +1,5 @@
 angular.module('app').controller('app_loginconfident', app_loginconfident);
-function app_loginconfident($scope, app, $q) {
+function app_loginconfident($scope, app, $q, $http, $sessionStorage,$rootScope) {
     'use strict';
     app.init($scope);
     
